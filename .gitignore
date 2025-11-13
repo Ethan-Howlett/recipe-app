@@ -12,10 +12,13 @@
 .env.local
 .env.development.local
 .env.test.local
-
-# Development environment
 .venv
 node_modules
-
-.env
-
+# Python cache files
+**/__pycache__/
+*.py[cod]
+*$py.class
+*.so
+.venv/
+.pytest_cache/
+db/data/

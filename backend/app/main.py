@@ -1,7 +1,7 @@
 import uvicorn
 from fastapi import FastAPI, Query
 from fastapi.middleware.cors import CORSMiddleware
-from app.services.recipe_service import RecipeFromURL
+from app.recipes.services.recipe_service import RecipeFromURL
 
 app = FastAPI()
 
